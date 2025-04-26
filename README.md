@@ -1,5 +1,4 @@
-# POC_coverage_NG
-## POC (Point of Consumption) View all around Nigeria
+# POC (Point of Consumption) View all around Nigeria
 ## Project overview
 
 # Description
@@ -17,15 +16,17 @@ Customize heat intensity (radius, blur, opacity).
 
 🛠️ Technologies Used
 
-1. Python 3
+1. CMD (for installing libraries)
 
-2. CMD
+2. Python (for coding)
 
-3. Folium
+3. Folium (for interactive map creation)
 
-4. Pandas
+4. Folium.plugins (for HeatMap)
 
-5. Jupyter Notebook
+5. Pandas (for data handling)
+
+6. Jupyter Notebook/VSCode (as development environments)
 
 
 # Business Introduction
@@ -134,5 +135,40 @@ Specifically, this project aims to:
 - Enable integration of additional datasets (e.g., sales performance, population density, customer demographics) for deeper insights.
 
 - Build a scalable framework for future predictive analytics, territory optimization, and growth modelling.
+
+
+# Processes Followed in the Analysis📄
+## Environment Setup
+
+1. Installed necessary Python libraries (Folium, Pandas, Seaborn) using CMD.
+
+2. Data Preparation
+
+3. Loaded the dataset containing State names, Latitude, and Longitude.
+
+4. Cleaned and validated the data to ensure completeness and accuracy.
+
+5. Map Creation
+
+6. Imported required libraries (Folium and Folium.plugins).
+
+7. Created a base Folium map centred over Nigeria.
+
+8. Heatmap Generation
+
+9. Structured the dataset into the required format (Latitude and Longitude points).
+
+10. Added a HeatMap layer to visualize coverage density, adjusting radius, blur, and opacity for clarity.
+
+11. Labeling States
+
+12. Added State names as map markers with tooltips to show location names when hovered.
+
+13. Visualization
+
+14. Displayed the interactive map inside the notebook.
+
+15. Exported and saved the map as an HTML file for easy sharing and presentation.
+
 
 
